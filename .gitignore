@@ -8,7 +8,8 @@ wheels/
 
 # Virtual environments
 atenv
-
+experiments
 #secretfiles
 .env 
 SUPABASE PW.pages
+
