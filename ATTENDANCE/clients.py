@@ -1,9 +1,9 @@
 from supabase import create_client
 from github import Github
 from .config import get_env
-from .logger import get_logger
+from .logger import get_log
 
-logger=get_logger(__name__)
+logger=get_log(__name__)
 
 def create_supabase_client():
     """

@@ -12,7 +12,7 @@ def get_log(name="attendance"):
     """Create and return a logger that logs to both console and logs/app.log.
     Prevents duplicate handlers and keeps formatting consistent."""
 
-    log=logging.getlogger(name)
+    log=logging.getLogger(name)
 
     #if handlers already exists return existing loggers
     if log.handlers:
