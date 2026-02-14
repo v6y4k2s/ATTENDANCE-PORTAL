@@ -20,7 +20,7 @@ except Exception:
     supabase = None
 
 def current_ist_date():
-    return datetime.now(pytz.timezone("Asia/Kolkata")).strftime("%Y-%m-%d")
+    return datetime.now(pytz.utc).strftime("%Y-%m-%d")
 
 st.markdown("""
 <h1 style='text-align: center; color: #4B8BBE;'>🎓 Student Attendance Portal</h1>
